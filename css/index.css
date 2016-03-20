@@ -1,0 +1,538 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+
+/*最顶部(第一部分)*/
+.top_photo a {
+    width: 100%;
+    height: 80px;
+    background: url(../images/title_photo.JPG) no-repeat center center;
+    display: block;
+    cursor: pointer;
+}
+
+/*头部第一个导航部分*/
+.outer {
+    width: 100%;
+    display: block;
+}
+
+/*左边导航*/
+.Navagation {
+    background-color: #333;
+    width: 100%;
+    display: block;
+}
+
+.Navagation .top-left {
+    width: 1366px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin: 0 auto;
+    /*border: 1px solid blue;*/
+}
+
+.Navagation .top-left a {
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.Navagation .top-left a span {
+    margin-right: 20px;
+}
+
+.Navagation .top-left .one1 {
+    border-right: 1px solid #5d5d5d;
+}
+
+.Navagation .top-left .one1 span {
+    color: #29b8a2;
+}
+
+.Navagation .top-left .one1 span:hover {
+    color: #05eaaf;
+}
+
+.Navagation .top-left .one1 img {
+    margin: 7px 6px -2px 9px;
+}
+
+.Navagation .top-left .one2 span {
+    color: #c4c3c3;
+}
+
+.Navagation .top-left .one2 span:hover {
+    color: #ffffff;
+}
+
+/*右边导航*/
+.Navagation ul.top-right {
+    display: inline-block;
+    float: right;
+    height: 30px;
+    width: 110px;
+    text-align: center;
+    line-height: 30px;
+    /*border: 1px solid green;*/
+    position: relative;
+    left: -32px;
+    top: -32px;
+}
+
+.Navagation ul.top-right li {
+    list-style: none;
+}
+
+.Navagation ul.top-right li a {
+    text-decoration: none;
+}
+
+.Navagation ul.top-right li .two2 {
+    border-left: 1px solid #5d5d5d;
+}
+
+.Navagation ul.top-right li .two1, .two2 span {
+    margin-right: 10px;
+    color: #c4c3c3;
+}
+
+.Navagation ul.top-right li a span:hover {
+    color: #ffffff;
+}
+
+.Navagation ul.top-right li .two2 span {
+    margin-left: 16px;
+}
+
+/*头部导航第二个导航*/
+.three {
+    height: 56px;
+    background-color: #fafafa;
+    border: 1px solid #e5e5e5;
+}
+
+.three .threeA {
+    width: 1024px;
+    display: block;
+    /*border:1px solid red;*/
+    margin: 0 auto;
+    height: 55px;
+}
+
+.threeB {
+    float: left;
+    display: block;
+    width: 270px;
+    height: 55px;
+}
+
+.threeB a {
+    display: block;
+    clear: both;
+    width: 97px;
+}
+
+.threeB a img {
+    display: block;
+    float: left;
+    margin-top: 12px;
+}
+
+.threeB .threeC {
+    display: inline-block;
+    clear: both;
+    margin: 19px 0 0 20px
+}
+
+.threeB .threeC span {
+    display: inline-block;
+    font-size: 19px;
+}
+
+.threeB .threeC .siz {
+    font-size: 14px;
+    color: #a5999c;
+}
+
+.threeB .threeC .siz:hover {
+    cursor: pointer;
+}
+
+.four {
+    float: left;
+    display: block;
+    width: 260px;
+    height: 55px;
+}
+
+.four ul {
+    list-style: none;
+    clear: both;
+}
+
+.four ul li {
+    display: inline-block;
+    float: left;
+    width: 46px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 16px;
+    color: #999999;
+}
+
+.four ul .foura {
+    border-bottom: 2px solid #00b38a;
+    color: #333333;
+}
+
+.four ul li:hover {
+    border-bottom: 2px solid #00b38a;
+    cursor: pointer;
+    color: #333333;
+}
+
+/*下部的整个边框*/
+.bott {
+    margin: 35px auto 0;
+    border: 1px solid red;
+    width: 1024px;
+}
+
+/*又加一层*/
+.ad {
+    /*border:2px solid #c9cbce;*/
+   /*width: 232px;*/
+    display: inline-block;
+}
+
+.bottlef {
+    float: left;
+    width: 230px;
+    background-color: #fafafa;
+    /*border: 1px solid blue;*/
+    margin-bottom: 14px;
+    display: block;
+
+}
+
+
+.bottlef .bottfir {
+    padding: 13px 12px;
+}
+.bottlef .bottfir:hover {
+    background: #ffffff;
+    border: 2px solid #c9cbce;
+    border-right: 2px solid #ffffff;
+}
+
+.bottlef .bottfir .bota {
+    display: block;
+    font-size: 18px;
+    margin: 8px 0;
+    padding-left: 8px;
+    overflow: hidden;
+}
+
+/*一张左侧最底部图片*/
+/*.bottlef .bottfir .bota .botc{
+    background: url(../img/new.png)0 0 no-repeat;
+}*/
+.bottlef .bottfir .bota .botb {
+    display: inline-block;
+    border: 1px solid #6a6d6e;
+    width: 10px;
+    height: 10px;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg); /*设置大于号*/
+    float: right;
+    margin: 6px 6px 0 0;
+}
+
+.bottlef .bottfir a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+    white-space: nowrap;
+    padding: 0 7px;
+    color: #333333;
+}
+
+.bottlef .bottfir a:hover {
+    color: #00b38a;
+    text-decoration: underline;
+}
+.sec{
+    position: relative;
+}
+
+.mark{
+    width: 540px;
+    height: 500px;
+    position: absolute;
+    left: 391px;
+    top: 203px;
+    padding: 15px 30px 5px;
+    border: 2px solid #c9cbce;
+    background: #fff;
+    display: none;
+}
+
+.mark1{
+    width: 540px;
+    height: 500px;
+    position: absolute;
+    left: 391px;
+    top: 203px;
+    padding: 15px 30px 5px;
+    border: 2px solid #c9cbce;
+    background: #fff;
+    display: none;
+}
+.mark2{
+    width: 540px;
+    height: 500px;
+    display: none;
+    background: #fff;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    left: 391px;
+    top: 301px;
+}
+.mark3{
+    width: 540px;
+    height: 500px;
+    display: none;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    left: 391px;
+    top: 362px;
+}
+.mark4{
+    width: 540px;
+    height: 500px;
+    display: none;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    left: 391px;
+    top: 400px;
+}
+.mark5{
+    width: 540px;
+    height: 500px;
+    display: none;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    left: 391px;
+    top: 450px;
+}
+.mark6{
+    width: 540px;
+    height: 500px;
+    display: none;
+    border: 2px solid #c9cbce;
+    position: absolute;
+    left: 391px;
+    top: 550px;
+}
+
+
+
+
+
+
+
+.mark dl{
+    margin: 0 0 20px;
+
+}
+.mark dl dt{
+    width: 70px;
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+    position: absolute;
+}
+.mark dl dt a{
+    padding: 0;
+    color: #333;
+    line-height: 28px;
+    text-decoration: underline;
+}
+.mark dl dd{
+    margin-left: 100px;
+    overflow: hidden;
+    float: left;
+}
+.mark dl dd a{
+    padding: 0 10px 0 11px;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    /*height: 15px;*/
+    line-height: 28px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bottleft {
+    width: 230px;
+    height: 48px;
+    /*border:1px solid green;*/
+    clear: both;
+    background-color: #fafafa;
+    border-bottom: 2px solid #00b38a;
+}
+
+.bottleft a {
+    text-decoration: none;
+    position: relative;
+}
+
+.bottleft a span {
+    font-size: 20px;
+    color: #333;
+    padding: 12px 0 0 40px;
+    display: block;
+}
+
+.bottleft a span:hover {
+    color: #00b38a;
+}
+
+.bottleft a i {
+    position: absolute;
+    top: -24px;
+    left: 193px;
+    overflow: hidden;
+    /* border: 1px solid red;*/
+    width: 22px;
+    height: 22px;
+    background: url("../images/jian.png") no-repeat 0 -18px;
+}
+
+/*下部右侧的整个盒子*/
+.Right {
+    display:block;
+    width:744px;
+    float: right;
+    border: 1px solid red;
+}
+
+/*搜索框*/
+.rig {
+    display:block;
+    clear: both;
+    overflow: hidden;
+}
+.rig .onea{
+    width: 574px;
+    height: 23px;
+    display: inline-block;
+    border:2px solid #00b38a;
+    font-size: 16px;
+    line-height: 23px;
+    padding: 5px 8px 5px 10px;
+    border-right: 0;
+    margin: 0;
+    float: left;
+}
+.rig .oneb{
+    width: 150px;
+    height: 37px;
+    border: 2px solid #00b38a;
+    color:#FFF;
+    font-size: 18px;
+    background: #00b38a;
+    float: left;
+}
+.rig .oneb:hover{
+    background: #00a57f;
+}
+
+/*热门搜索*/
+.remen{
+    overflow: hidden;
+    margin: 6px 0 18px;
+}
+.remen dt{
+    color:#333;
+
+}
+.remen dt,dd{
+    display: inline-block;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: center;
+}
+.remen dd a{
+    text-decoration: none;
+    margin:0 13px 0 0;
+}
+.remen dd a{
+    color:#555;
+}
+.remen .xia a{
+    color:#00b38a;
+}
+.remen dd a:hover{
+    color:#00b38a;
+    text-decoration: underline;
+}
+
+
+
+/*轮播图*/
+#sou{
+    border:1px solid blue;
+   /* width: 612px;*/
+    /*height: 160px;
+    overflow: hidden;*/
+}
+
+#souz{
+    border:1px solid green;
+    width: 612px;
+    height: 160px;
+    -webkit-transition: 1s;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#souy{
+    display: block;
+    float: right;
+    border: 1px solid darkorchid;
+    width: 116px;
+    height: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
